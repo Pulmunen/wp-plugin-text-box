@@ -20,15 +20,17 @@
 	},
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^21.1.2",
-		"@wordpress/prettier-config": "^4.8.1",
+		"@wordpress/prettier-config": "^4.8.0",
 		"@wordpress/scripts": "^30.0.2",
-		"@wordpress/stylelint-config": "^23.0.1",
+		"@wordpress/stylelint-config": "^23.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"stylelint": "^16.9.0"
 	},
 	"dependencies": {
 		"@wordpress/block-editor": "^14.3.0",
 		"@wordpress/blocks": "^13.8.0",
-		"@wordpress/i18n": "^5.8.0"
+		"@wordpress/components": "^28.8.0",
+		"@wordpress/i18n": "^5.8.0",
+		"classnames": "^2.5.1"
 	}
 }

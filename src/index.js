@@ -6,10 +6,7 @@ import metadata from './block.json'
 
 const {name} = metadata
 
-
-console.log("hi")
 registerBlockType( name, {
 	edit: Edit,
 	save,
 } );
-console.log("there")
