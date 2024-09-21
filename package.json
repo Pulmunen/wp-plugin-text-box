@@ -1,7 +1,7 @@
 {
-	"name": "boilerplate",
+	"name": "text-box",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "Text box.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
@@ -25,5 +25,10 @@
 		"@wordpress/stylelint-config": "^23.0.1",
 		"eslint-config-prettier": "^9.1.0",
 		"stylelint": "^16.9.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^14.3.0",
+		"@wordpress/blocks": "^13.8.0",
+		"@wordpress/i18n": "^5.8.0"
 	}
 }
